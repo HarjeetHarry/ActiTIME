@@ -1,0 +1,9 @@
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="TestGC">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="ip" value="192.168.1.9"/>
+   <package>
+   <package name="script"/>
+   </package>
+  </test>
+</suite> 
